@@ -1,5 +1,7 @@
 # Korean School Meal MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Runbuilder/mcpkupsik)](https://smithery.ai/server/@Runbuilder/mcpkupsik)
+
 This MCP (Model Context Protocol) server provides access to Korean school meal information using the NEIS Open API.
 
 ## Features
@@ -38,6 +40,15 @@ Provides guidance on how to use the meal information service.
 
 ## Installation
 
+### Installing via Smithery
+
+To install mcpkupsik for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Runbuilder/mcpkupsik):
+
+```bash
+npx -y @smithery/cli install @Runbuilder/mcpkupsik --client claude
+```
+
+### Manual Installation
 ```bash
 npm install
 npm run build

@@ -1,0 +1,43 @@
+{
+  "name": "mcp-school-meal",
+  "version": "1.0.0",
+  "description": "Korean school meal information MCP server",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "school",
+    "meal",
+    "neis",
+    "korea"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2",
+    "node-fetch": "^3.3.2",
+    "dayjs": "^1.11.10",
+    "zod": "^3.22.4"
+  },
+  "mcp": {
+    "name": "school-meal-bot",
+    "description": "Korean school meal information service using NEIS Open API",
+    "version": "1.0.0",
+    "transport": "ws",
+    "capabilities": {
+      "tools": true,
+      "prompts": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/mcp-school-meal"
+  }
+}

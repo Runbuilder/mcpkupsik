@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/runbuilder-mcpkupsik-badge.png)](https://mseep.ai/app/runbuilder-mcpkupsik)
+
 # Korean School Meal MCP Server
 
 This MCP (Model Context Protocol) server provides access to Korean school meal information using the NEIS Open API.
